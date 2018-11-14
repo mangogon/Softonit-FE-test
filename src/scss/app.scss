@@ -1,0 +1,106 @@
+/*
+ Main stylesheet
+ */
+@import "~bootstrap/scss/bootstrap";
+@import "common";
+@import "studies";
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/*
+ Main menu bar - a BS4 Navbar
+ */
+#main-bar {
+
+  padding-left: 8px;
+  font-weight: 300;
+  color: white !important;
+
+  .navbar-brand {
+    padding: 0;
+  }
+
+  ul {
+    li {
+      &.active {
+        background-color: #5cb68c;
+        $vpad: 12px;
+        margin-top: -$vpad;
+        margin-bottom: -$vpad;
+        padding-top: $vpad;
+      }
+      a {
+        color: white;
+        font-weight: 300;
+      }
+    }
+    button.btn-outline-secondary {
+      color: white;
+    }
+  }
+}
+
+/*
+ Secondary menu bar
+ */
+
+#secondary-bar {
+
+  padding-bottom: 40px;
+
+  ul {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 25px 0;
+    font-size: 85%;
+
+    li {
+      display: inline;
+      margin-right: 20px;
+      &.active {
+        color: #6c9;
+      }
+    }
+  }
+}
+
+/*
+ Main content block
+ */
+
+#main-content {
+
+  #title {
+    h1 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 25pt;
+    }
+  }
+  #main-body {
+
+    margin-bottom: 40px;
+
+    #menu-left {
+      font-weight: 700;
+      ul {
+        padding-left: 20px;
+        li {
+          padding-left: 35px;
+        }
+      }
+    }
+    #body-right {
+      text-align: justify;
+    }
+  }
+}
+
+/*
+ Clients logos
+ */
+
+#clients {
+  margin-bottom: 40px;
+}

@@ -1,0 +1,52 @@
+
+/*
+ Studies blocks (3 or 4)
+ */
+
+@import "common";
+
+#studies {
+
+  .study-block {
+    height: 388px;
+    position: relative;
+
+    .back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      &:hover {
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 1;
+      }
+    }
+    .front {
+      position: absolute;
+      width: 100%;
+      top: 140px;
+      font-weight: normal;
+      text-align: center;
+      color: white;
+    }
+  }
+
+  #study-1 {
+    background-color: $study1;
+    .back:hover {
+      background-image: url("img/reishunger-bk.png");
+    }
+  }
+  #study-2 {
+    background-color: $study2;
+  }
+  #study-3 {
+    background-color: $study3;
+  }
+  #study-4 {
+    background-color: $study4;
+  }
+}

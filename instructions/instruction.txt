@@ -1,0 +1,14 @@
+GENERAL:
+- Create HTML/CSS page using PSD (mockup.psd) with all of the best-practices in front-End development that you know about + optimization. 
+- Write clean, reusable and well commented code.
+
+TECHNICAL SPECIFICATIONS:
+- Use SCSS/SASS preprocessor and any modular methodology that you're familiar with;
+- Use GULP project builder or Webpack, provide 'dist' and 'src' folders as a result of compilation;
+- Provide instructions for dev/build/watch management in 'readme' file;
+- Page should be fully responsive;
+
+PAGE DETAILS:
+- Service CSS effect: color change (fade in/fade out) - see reference here: http://fantasy.co/work;
+- Use flexible model of colored blocks layout section. So if there will be 3 blocks instead of 4, last block should become a full-width element. Check an image called 'in-case-of-3.jpg' for a reference;
+- Also please check the additional briefing: 'additional-information.png';
